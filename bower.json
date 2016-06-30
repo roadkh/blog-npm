@@ -1,0 +1,22 @@
+{
+  "name": "blog-npm",
+  "description": "Npm + Bower + Gulp for client web development",
+  "main": "index.js",
+  "authors": [
+    "road <roadkh@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "^1.0.9",
+    "angular-loader": "^1.5.7",
+    "angular-route": "^1.5.7"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sample Mock app</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/app.min.css"/>
+</head>
+<body>
+    <h1>Thanks! This is Blog NPM Sample app.</h1>
+    <ul class="menu">
+        <li><a href="#!/view1">view1</a></li>
+        <li><a href="#!/view2">view2</a></li>
+    </ul>
+
+    <div ng-view></div>
+
+    <div>Sample Mock app: v<span app-version></span></div>
+
+<script src="/assets/ext/angular/angular.min.js"></script>
+<script src="/assets/ext/angular-route/angular-route.min.js"></script>
+<script src="/assets/js/app.min.js"></script>
+<script src="/assets/js/view/view1.min.js"></script>
+<script src="/assets/js/view/view2.min.js"></script>
+<script src="/assets/js/module/version.min.js"></script>
+<script src="/assets/js/module/interpolate-filter.min.js"></script>
+<script src="/assets/js/module/version-directive.min.js"></script>
+</body>
+</html>
